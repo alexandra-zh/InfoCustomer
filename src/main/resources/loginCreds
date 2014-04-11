@@ -1,0 +1,6 @@
+,,false
+Administrator,,false
+,Administrator,false
+Administrator,invalidPass,false
+invalidUser,Administrator,false
+Administrator,Administrator,true

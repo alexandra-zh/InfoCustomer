@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Fast tests" verbose="10">
+    <test name="fast">
+        <groups>
+            <run>
+                <include name="fast"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="test.functional"/>
+        </packages>
+    </test>
+</suite>
